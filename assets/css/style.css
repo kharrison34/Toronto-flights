@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.jumbotron {
+    background-color:transparent !important; 
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.form-control{
+    color: black;
+}
+.btn-primary {
+    color: black;
+    background-color: white;
+    border-color: white;
+    margin: auto;
+}
+.selectDestWarning {
+    color: red;
+}
+p{
+    color: black);
+    
+   
+}
+#depdisp{
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-size:25px;
+}
+#retdisp{
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-size:25px;
+}
+
+.departure , .return {
+    font-size:20px;
+
+}
+
+.tempTitle {
+    color: white;
+    /* text-shadow: 2px 2px black; */
+    text-align: center;
+    font-size:25px;
+}
+/* styling for weather graph */
+.axis path, .axis line
+        {
+            fill: none;
+            stroke: #777;
+            shape-rendering: crispEdges;
+        }
+        
+        .axis text
+        {
+            font-family: 'Arial';
+            font-size: 13px;
+        }
+        .tick
+        {
+            stroke-dasharray: 1, 2;
+        }
+        .bar
+        {
+            fill: FireBrick;
+        }
